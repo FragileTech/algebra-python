@@ -1,0 +1,15 @@
+:py:mod:`algebra`
+=================
+
+.. py:module:: algebra
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   version/index.rst
+
+
