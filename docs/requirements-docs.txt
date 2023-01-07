@@ -2,7 +2,7 @@ sphinx==6.1.2
 linkify-it-py==2.0.0
 myst-parser==0.18.1
 myst-nb==0.17.1
-ruyaml==0.19.2
+ruyaml==0.91.0
 sphinx-autoapi==2.0.0
 sphinxcontrib-mermaid==0.7.1
 sphinx_book_theme==0.3.3
