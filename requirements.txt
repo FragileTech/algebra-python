@@ -1,6 +1,6 @@
 numpy==1.24.1
 scipy==1.10.0
 holoviews==1.15.3
-ipykernel==6.19.12
+ipykernel==6.20.0
 jupyter==1.0.0
 notebook==6.5.2
