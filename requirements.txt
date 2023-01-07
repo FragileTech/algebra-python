@@ -1,0 +1,6 @@
+numpy==1.12.5
+scipy==1.10.0
+holoviews==1.15.3
+ipykernel==6.19.12
+jupyter==1.0.0
+notebook==6.5.2
