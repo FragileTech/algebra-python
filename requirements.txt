@@ -4,3 +4,4 @@ holoviews==1.15.3
 ipykernel==6.20.0
 jupyter==1.0.0
 notebook==6.5.2
+sympy==1.11.1
