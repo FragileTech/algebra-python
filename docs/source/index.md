@@ -11,7 +11,7 @@ maxdepth: 3
 caption: Materiales
 ---
 ./notebooks/01-numpy_tutorial.ipynb
-./notebooks/valores_y_vectores_propios.ipynb
+./notebooks/02-recursos.ipynb
 ```
 
 ```{toctree}
