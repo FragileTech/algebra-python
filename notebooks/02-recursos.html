@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>API Reference</title>
+    <title>Recursos álgebra lineal</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -38,8 +38,8 @@
     <link rel="shortcut icon" href="../_static/umh_thumbnail.jpeg"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="algebra" href="algebra/index.html" />
-    <link rel="prev" title="Recursos álgebra lineal" href="../notebooks/02-recursos.html" />
+    <link rel="next" title="API Reference" href="../autoapi/index.html" />
+    <link rel="prev" title="Introducción a Numpy" href="01-numpy_tutorial.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -102,14 +102,14 @@
   Materiales
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../notebooks/01-numpy_tutorial.html">
+  <a class="reference internal" href="01-numpy_tutorial.html">
    Introducción a Numpy
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../notebooks/02-recursos.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Recursos álgebra lineal
   </a>
  </li>
@@ -119,19 +119,19 @@
   algebra API
  </span>
 </p>
-<ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active has-children">
-  <a class="current reference internal" href="#">
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../autoapi/index.html">
    API Reference
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="algebra/index.html">
+    <a class="reference internal" href="../autoapi/algebra/index.html">
      <code class="xref py py-mod docutils literal notranslate">
       <span class="pre">
        algebra
@@ -145,7 +145,7 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="algebra/version/index.html">
+      <a class="reference internal" href="../autoapi/algebra/version/index.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          algebra.version
@@ -208,6 +208,35 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/fragiletech/algebra-lineal/gh-pages?urlpath=tree/docs/notebooks/02-recursos.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="../_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
 <button onclick="toggleFullScreen()"
   class="headerbtn"
   data-toggle="tooltip"
@@ -247,7 +276,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/fragiletech/algebra-lineal/edit/gh-pages/docs/autoapi/index.rst"
+        <a href="https://github.com/fragiletech/algebra-lineal/edit/gh-pages/docs/notebooks/02-recursos.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -275,7 +304,7 @@ title="Edit this page"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/autoapi/index.rst.txt"
+        <a href="../_sources/notebooks/02-recursos.ipynb.txt"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -286,7 +315,7 @@ title="Download source file"
 <span class="headerbtn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.rst</span>
+<span class="headerbtn__text-container">.ipynb</span>
 </a>
 
       </li>
@@ -312,23 +341,94 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conceptos-basicos">
+   Conceptos básicos
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#matrices-que-representa-una-matriz">
+     Matrices: ¿Qué representa una matriz?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#operaciones-con-matrices">
+     Operaciones con matrices
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#vectores-y-valores-propios">
+     Vectores y valores propios
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>API Reference</h1>
+                <h1>Recursos álgebra lineal</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conceptos-basicos">
+   Conceptos básicos
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#matrices-que-representa-una-matriz">
+     Matrices: ¿Qué representa una matriz?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#operaciones-con-matrices">
+     Operaciones con matrices
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#vectores-y-valores-propios">
+     Vectores y valores propios
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -336,22 +436,78 @@ title="Print to PDF"
                 
               <div>
                 
-  <section id="api-reference">
-<h1>API Reference<a class="headerlink" href="#api-reference" title="Permalink to this headline">#</a></h1>
-<p>This page contains auto-generated API reference documentation <a class="footnote-reference brackets" href="#f1" id="id1">1</a>.</p>
-<div class="toctree-wrapper compound">
+  <section class="tex2jax_ignore mathjax_ignore" id="recursos-algebra-lineal">
+<h1>Recursos álgebra lineal<a class="headerlink" href="#recursos-algebra-lineal" title="Permalink to this headline">#</a></h1>
+<section id="conceptos-basicos">
+<h2>Conceptos básicos<a class="headerlink" href="#conceptos-basicos" title="Permalink to this headline">#</a></h2>
+<section id="matrices-que-representa-una-matriz">
+<h3>Matrices: ¿Qué representa una matriz?<a class="headerlink" href="#matrices-que-representa-una-matriz" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>Espacios vectoriales <a class="reference external" href="https://en.wikipedia.org/wiki/Change_of_basis">wikipedia vector space</a></p></li>
+<li><p>Relaciones entre variables <a class="reference external" href="https://bost.ocks.org/mike/miserables/">Miserables coocurrence</a></p></li>
+<li><p>Grafos <a class="reference external" href="https://t.co/Ep99lp1ty0">Matrices and graphs</a></p></li>
+<li><p>Estructuras de datos <a class="reference external" href="https://www.kaggle.com/code/startupsci/titanic-data-science-solutions">Titanic dataset analysis</a></p></li>
+<li><p>Matrices multidimensionales <a class="reference external" href="https://einops.rocks/1-einops-basics/">Einops</a></p></li>
+</ul>
+</section>
+<section id="operaciones-con-matrices">
+<h3>Operaciones con matrices<a class="headerlink" href="#operaciones-con-matrices" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>Producto escalar <a class="reference external" href="https://en.wikipedia.org/wiki/Dot_product">Wikipedia dot product</a></p></li>
+<li><p>Producto elemento a elemento:</p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="algebra/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">algebra</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="algebra/version/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">algebra.version</span></code></a></li>
+<li><p><a class="reference external" href="https://www.researchgate.net/figure/Visualization-of-the-attention-masks-The-masks-in-same-column-are-from-the-same_fig4_335407972">Máscaras de atención</a></p></li>
+<li><p><a class="reference external" href="https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853">Mecasnismo de atención en deep learning</a></p></li>
+</ul>
+</li>
+<li><p>Norma de un vector/distancia <a class="reference external" href="https://scikit-learn.org/stable/modules/neighbors.html#classification">K-nearest neighbors</a></p></li>
+<li><p>Tipos de distancia <a class="reference external" href="https://medium.com/geekculture/7-important-distance-metrics-every-data-scientist-should-know-11e1b0b2ebe3">Metricas de distancia en data science</a></p></li>
+<li><p>Cosine distance <a class="reference external" href="https://towardsdatascience.com/what-is-cosine-similarity-how-to-compare-text-and-images-in-python-d2bb6e411ef0">Cosine similarity python for text</a></p></li>
+<li><p>Producto de matrices:</p>
+<ul>
+<li><p><a class="reference external" href="https://towardsdatascience.com/neural-net-from-scratch-using-numpy-71a31f6e3675">Redes neuronales</a></p></li>
+<li><p><a class="reference external" href="https://jermwatt.github.io/machine_learning_refined/notes/13_Multilayer_perceptrons/13_2_Multi_layer_perceptrons.html">Perceptron multicapa</a></p></li>
 </ul>
 </li>
 </ul>
-</div>
-<dl class="footnote brackets">
-<dt class="label" id="f1"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
-<dd><p>Created with <a class="reference external" href="https://github.com/readthedocs/sphinx-autoapi">sphinx-autoapi</a></p>
-</dd>
-</dl>
+</section>
+<section id="vectores-y-valores-propios">
+<h3>Vectores y valores propios<a class="headerlink" href="#vectores-y-valores-propios" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>Explicación visual eigenvalues y eigenvectors <a class="reference external" href="https://setosa.io/ev/eigenvectors-and-eigenvalues/">Visualizaciones y animaciones</a></p></li>
+<li><p>Markov chains:</p>
+<ul>
+<li><p><a class="reference external" href="https://setosa.io/markov/index.html#%7B%22tm%22%3A%5B%5B0.5%2C0.2%2C0.2%5D%2C%5B0.2%2C0.5%2C0.3%5D%2C%5B0.1%2C0.3%2C0.7%5D%5D%7D">Visualization on a graph</a></p></li>
+<li><p>Ejemplo <a class="reference external" href="https://medium.com/&#64;andrew.chamberlain/using-eigenvectors-to-find-steady-state-population-flows-cd938f124764">Steady state computation using eigenvalues</a></p></li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li><p>Singular value decomposition (SVD):</p>
+<ul>
+<li><p>Image compression <a class="reference external" href="https://medium.com/mlearning-ai/svd-and-image-compression-749d59558410">Example compression + theory</a></p></li>
+<li><p>Preprocessing for classification <a class="reference external" href="https://towardsdatascience.com/how-to-use-singular-value-decomposition-svd-for-image-classification-in-python-20b1b2ac4990">Digit classification</a></p></li>
+</ul>
+</li>
+<li><p>Principal component analysis (PCA):</p>
+<ul>
+<li><p>Explicacion visual <a class="reference external" href="https://setosa.io/ev/principal-component-analysis/">Graficos vectores y embedding paises</a></p></li>
+<li><p>Parametros algoritmo <a class="reference external" href="https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html">Scikit-learn docs</a></p></li>
+</ul>
+</li>
+<li><p>Support vector machines:</p>
+<ul>
+<li><p>Explicacion support vector classifier <a class="reference external" href="https://medium.com/&#64;swetaprabha/support-vector-classifier-and-support-vector-machine-4a675b8cac88"></a></p></li>
+<li><p>Algoritmo en sklearn <a class="reference external" href="https://scikit-learn.org/stable/modules/svm.html#svm-classification">SVC docs</a></p></li>
+</ul>
+</li>
+<li><p>Diagonalización: <a class="reference external" href="https://math.stackexchange.com/questions/936757/why-is-pagerank-an-eigenvector-problem">Pagerank</a></p></li>
+</ul>
+<ul class="simple">
+<li><p>Comparativa algoritmos ML <a class="reference external" href="https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html">Visualization decision boundaries</a></p></li>
+</ul>
+</section>
+</section>
 </section>
 
 
@@ -362,17 +518,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="../notebooks/02-recursos.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="01-numpy_tutorial.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Recursos álgebra lineal</p>
+            <p class="prev-next-title">Introducción a Numpy</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="algebra/index.html" title="next page">
+    <a class='right-next' id="next-link" href="../autoapi/index.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><code class="xref py py-mod docutils literal notranslate"><span class="pre">algebra</span></code></p>
+        <p class="prev-next-title">API Reference</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
